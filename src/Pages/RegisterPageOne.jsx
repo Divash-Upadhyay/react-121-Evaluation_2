@@ -1,6 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { registrationContext } from "../Context/RegistrationContextProvider";
+import "./RegisterPageOne.css";
 
 export const RegisterPageOne = () => {
   const [data, setData] = useContext(registrationContext);
@@ -24,8 +25,8 @@ export const RegisterPageOne = () => {
 
   console.log(data);
   return (
-    <div>
-      RegisterPageOne
+    <div className="one">
+      <h2>RegisterPageOne</h2>
       <br />
       <input
         type="text"
@@ -42,6 +43,7 @@ export const RegisterPageOne = () => {
         onChange={handleChange}
         placeholder="Enter Email"
       />
+      <br />
       <button disabled={data.email.length < 8} onClick={nextPage}>
         NEXT
       </button>

@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { registrationContext } from "../Context/RegistrationContextProvider";
+import "./Dashboard.css";
 
 export const Dashboard = () => {
   const [data] = useContext(registrationContext);
@@ -7,11 +8,11 @@ export const Dashboard = () => {
   return (
     <div>
       Dashboard
-      <div>
-        <div>Name:{data.name}</div>
-        <div>Email:{data.email}</div>
-        <div>Address:{data.address}</div>
-        <div>Number:{data.number}</div>
+      <div className="dash">
+        <h1>Name: {data.name}</h1>
+        <h3>Email: {data.email}</h3>
+        <h3>Address: {data.address}</h3>
+        <h4>Number: {data.number}</h4>
       </div>
       ;
     </div>

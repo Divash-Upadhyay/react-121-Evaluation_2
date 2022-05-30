@@ -1,0 +1,23 @@
+.two{
+    border: 1px solid red;
+    border: 1px solid black;
+    height:400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 140px;
+    background-color: teal;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 110px;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+}
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+}

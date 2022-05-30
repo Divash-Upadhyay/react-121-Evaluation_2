@@ -1,0 +1,12 @@
+.dash{
+    border: 1px solid red;
+    border: 1px solid black;
+    height:400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 140px;
+    background-color: teal;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 110px;
+}

@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.home{
+    border: 1px solid black;
+    height:400px;
+    width: 50%;
+    margin: auto;
+    margin-top: 180px;
+    background-color: teal;
+    color: brown;
+}

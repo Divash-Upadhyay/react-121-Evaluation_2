@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { registrationContext } from "../Context/RegistrationContextProvider";
+import "./RegsiterPageTwo.css";
 
 export const RegisterPageTwo = () => {
   const [data, setData] = useContext(registrationContext);
@@ -21,7 +22,7 @@ export const RegisterPageTwo = () => {
     navigate("/register/one");
   }
   return (
-    <div>
+    <div className="two">
       <input
         type="text"
         name="address"
