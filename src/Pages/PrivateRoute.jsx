@@ -13,13 +13,7 @@ export const PrivateRoute = ({ children }) => {
   //       data.address
   //   );
 
-  if (
-    data.isAuth &&
-    data.name.length > 7 &&
-    data.email.length > 8 &&
-    data.number.length > 10 &&
-    data.address
-  ) {
+  if (data.isAuth) {
     return children;
   }
   useEffect(() => {
